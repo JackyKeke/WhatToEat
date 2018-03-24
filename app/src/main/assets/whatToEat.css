@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+    letter-spacing:2px;
+}
+html,body{height:100%; margin:0;}
+.box {
+    position: relative;
+    height: 100%;
+}
+.main {
+    padding: 5%;
+}
+.main .index {
+    position: relative;
+}
+.main .index p {
+    color: #a1a1a1;
+}
+.main .index button {
+    border-color: #ff0000;
+    background-color: #fff;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    outline: none;
+}
+.main .index span {
+    display: block;
+
+    width: 69px;
+    height: 59px;
+    background-repeat: no-repeat;
+}
+.main .index .Img1 {
+    position: absolute;
+    top: 9%;
+    right: 0;
+}
+.main .index .Img2 {
+    position: absolute;
+    bottom: 30%;
+    right: 0;
+}
+.main .index .oncebtn {
+    background-color: #ff0000;
+    color: #fff;
+    display: block;
+    width: 100%;
+    border-width: 0;
+}
+.footer {
+
+    width: 100%;
+    height: auto;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem 0;
+}
+.footer span {
+    height: 36px;
+}
+
+
+/* 吃 页面样式 */
+.top {
+    padding: 2% 5% 2% 5%;
+    font-size: 1rem;
+
+}
+.top input {
+    font-size: 1rem;
+    width: 60%;
+    border-radius: 5px;
+    border-width: 0;
+    background-color: #d7d7d7;
+    padding: 0.3rem 0.2rem 0.3rem 1.6rem;
+    outline:none;
+
+}
+.list{
+    overflow-y: scroll;
+}
+ul {
+    list-style: none;
+
+    /* height: 300px; */
+}
+ul li, .searchBox {
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+ul li {
+    border-bottom: #ccc 0.5px solid;
+
+}
+
+.eat button {
+    font-size: 1rem;
+    border-color: #ff0000;
+    background-color: #fff;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 0.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    outline: none;
+    letter-spacing: 4px;
+}
+.top .btnr {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: red;
+    font-size: 1.1rem;
+}
+.selection {
+    display: block;
+    text-align: center;
+    width: 80%;
+    color: #a1a1a1;
+
+}
+.select {
+    padding: 5%;
+    font-size: 1rem;
+    border-top: #a1a1a1 2px dashed;
+    position: relative;
+    text-align: center;
+}
+.select button {
+    background-color:red;
+    border-width: 0;
+    width: 100%;
+    color: #fff;
+    padding: 0.5rem 0;
+    display: block;
+    margin-bottom: 0.3rem;
+    margin-top: 0rem;
+}
+.select span {
+    /* display: none;
+    position: absolute;
+    right: 12%;
+    top: 25%; */
+    font-size: 1.4rem;
+}

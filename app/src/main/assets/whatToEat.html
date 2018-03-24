@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>吃什么好呢</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="whatToEat.css">
+
+
+</head>
+<body>
+<div class="box" id="mybox">
+    <!-- 页面主要区域 -->
+    <!-- 底部tab栏 -->
+    <div class="footer" id="myfoot">
+            <span>
+                <img class="seleIndex" src="image/icon1.png" alt="">
+                <img class="seleIndex" src="image/icon5.png" alt="" style="display:none">
+            </span>
+        <span>
+                <img class="seleIndex" src="image/icon2.png" alt="" style="display:none">
+                <img class="seleIndex" src="image/icon6.png" alt="">
+            </span>
+        <!-- <span>
+            <img class="seleIndex" src="image/icon3.png" alt="" style="display:none">
+            <img class="seleIndex" src="image/icon7.png" alt="">
+        </span>
+        <span>
+            <img class="seleIndex" src="image/icon4.png" alt="" style="display:none">
+            <img class="seleIndex" src="image/icon8.png" alt="">
+        </span> -->
+
+    </div>
+
+    <div class="main" id="mycontent">
+
+        <!-- 首页 -->
+        <div class="index">
+
+            <p>甲方：</p>
+            <button id="jiaBtn">石头剪刀布</button>
+            <span id="jiaImg" class="Img1"></span>
+
+            <p>乙方：</p>
+            <button id="yiBtn">石头剪刀布</button>
+            <span id="yiImg" class="Img2"></span>
+
+            <button id="onceBtn" class="oncebtn">再来一局</button>
+
+        </div>
+
+        <!-- 吃 页面 -->
+        <div class="eat" style="display:none">
+            <div class="top">
+                <div class="searchBox">
+                    <input type="text" placeholder="输入你喜欢的菜色" id="seleInput">
+                    <span id="add" class="btnr">添加</span>
+                </div>
+                <div class="list" id="foodlist">
+                    <ul>
+                        <!--<li><span class="selection">沙县</span><span class="btnr">删除</span></li>-->
+                        <!--<li><span class="selection">快餐</span><span class="btnr">删除</span></li>-->
+
+
+                    </ul>
+                </div>
+            </div>
+            <div class="select">
+                <button id="seleFoodBtn">今天要吃</button>
+                <span id="seleFoodContent" style="display:none"></span>
+            </div>
+        </div>
+
+        <!-- <div class="drink" style="display:none"><p>喝</p></div>
+        <div class="play" style="display:none"><p>玩</p></div> -->
+    </div>
+
+
+</div>
+
+</body>
+<script src="whatToEat.js"></script>
+
+</html>
